@@ -1,0 +1,63 @@
+.container_info_gallery {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.gallery_rows {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.size_image {
+    height: 240px;
+    width: 240px;
+    background-color: #412457;
+    -webkit-transition: .5s ease;
+}
+
+.size_image:hover {
+    cursor: pointer;
+    transition: .6s;
+    width: 270px;
+    height: 270px;
+}
+
+.img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.loupe {
+    width: 25px;
+    height: 25px;
+    background-color: #e8b527;
+    background-image: url("https://image.flaticon.com/icons/svg/751/751463.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.first {
+    background-image: url("img/218597f653da42571a57fbc5de0cc283.png");
+}
+
+.second {
+    background-image: url("img/w640.jpg");
+}
+
+.third {
+    background-image: url("img/tumblr_nxhxhqklAc1ucohnho1_500.jpg");
+}
+
+.fourth {
+    background-image: url("img/purple-neon-lights-purple-neon-lights-aesthetic.jpg");
+}
+
+.fifth {
+    background-image: url("img/superthumb.jpg");
+}
+
+.sixth {
+    background-image: url("img/8454ff55b644b94a87ef68c471770584.jpg");
+}

@@ -1,0 +1,48 @@
+label.btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+#check_night {
+    display: none;
+}
+
+#check_night:checked + .whole_page_eng {
+    transition: .7s;
+    background: var(--bg-color);
+    color: var(--font-color);
+}
+
+#check_night:checked ~ .whole_page_rus {
+    transition: .7s;
+    background: var(--bg-color);
+    color: var(--font-color);
+}
+
+.moon {
+    width: 24px;
+    height: 24px;
+    background-image: url("img/dark_mode_moon.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.moon:hover {
+    transform: rotate(360deg);
+    transition: .5s;
+}
+
+.moon:active {
+    width: 50px;
+    height: 50px;;
+    transition: .2s;
+}

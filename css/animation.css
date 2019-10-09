@@ -1,0 +1,29 @@
+.phone:hover {
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition: .8s;
+}
+
+.address:hover {
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition: .8s;
+}
+
+.mail:hover {
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition: .8s;
+}
+.color_contact:hover {
+    cursor: pointer;
+    color: #e8b527;
+    transition: .5s;
+}
+.image_avatar:hover {
+    cursor: pointer;
+    border-radius: 100%;
+    transition: .8s;
+    width: 120px;
+    height: 120px;
+}
