@@ -1,0 +1,34 @@
+#about_me, #history, #core {
+    display: none;
+}
+#about_me:checked ~ .history{
+    display: none;
+}
+#about_me:checked ~ .core{
+    display: none;
+}
+#history:checked ~ .history{
+    display: block;
+}
+#history:checked ~ .about_me{
+    display: none;
+}
+#history:checked ~ .core{
+    display: none;
+}
+#core:checked ~ .core{
+    display: block;
+}
+#core:checked ~ .about_me{
+    display: none;
+}
+#core:checked ~ .history{
+    display: none;
+}
+ul li:hover {
+    cursor: pointer;
+}
+.key{
+    color: gray;
+    font-size: 10px;
+}
