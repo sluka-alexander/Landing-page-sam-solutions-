@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="style.css" rel="stylesheet">
+    <link href="switches.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>TASK9</title>
+</head>
+<body>
+<div class="all_page">
+    <div class="first_icon">
+        <label for="about_me" class="block-auto" accesskey="z">About me <span class="key">alt+z</span></label>
+    </div>
+
+    <input type="radio" id="about_me" name="button" checked>
+
+    <div class="second_icon">
+        <label for="history" class="block-auto" accesskey="x">Work history <span class="key">alt+x</span></label>
+    </div>
+    <input type="radio" id="history" name="button">
+
+    <div class="third_icon">
+        <label for="core" class="block-auto" accesskey="c">Core skillset <span class="key">alt+c</span></label>
+    </div>
+    <input type="radio" id="core" name="button">
+
+    <div class="container_for_paragraph_and_content about_me">
+        <div class="paragraph">
+            <div class="pause_icon"></div>
+            <h1>About me</h1>
+        </div>
+        <div class="output_info">
+            <h2>I'm focused on solving problems by creating meaningful experience through design. I love to take
+                new
+                challenge and am able to take ideas from concept to wireframe to prototype to production.
+            </h2>
+        </div>
+    </div>
+
+    <div class="container_for_paragraph_and_content history">
+        <div class="paragraph">
+            <div class="pause_icon"></div>
+            <h1>Work history</h1>
+        </div>
+        <div class="content_work_history">
+            <div class="line_history">
+                <div class="item_circle">
+                    <div class="circle"></div>
+                    <div class="item_par">
+                        <h2><b>UI/UX Designer</b> @Ajkerdeal</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="line_item">
+                <div class="line"></div>
+                <div class="line_item_text">
+                    <h2>October 2018 - Now</h2><br>
+                    <h2>Designed full UI of a brand new app from scratch, brought couple of new features to life
+                        and improved few existing products' user experience.</h2>
+                </div>
+            </div>
+        </div>
+        <div class="content_work_history">
+            <div class="line_history">
+                <div class="item_circle">
+                    <div class="circle"></div>
+                    <div class="item_par">
+                        <h2><b>UI/UX Designer</b> @Ajkerdeal</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="line_item">
+                <div class="line_last"></div>
+                <div class="line_item_text ">
+                    <h2><p><b>SOFTWARE ENGINEER</b>@Beshto</p></h2>
+                    <br>
+                    <h2><p>September 2014 - Now</p></h2>
+                    <br>
+                    <h2><p>Involved in developing web apps &<br>
+                        and improving existing service</h2>
+                    </p><br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container_for_paragraph_and_content core">
+        <div class="paragraph">
+            <div class="pause_icon"></div>
+            <h1>CORE SKILLSET</h1>
+        </div>
+        <div class="output_info">
+            <h2>Design Thinking, Competitor Analysis, User Research, Personas, User Journeys, Sketching,
+                Wireframes,
+                Design System, Rapid Prototyping, UI Design, Interaction Design, User-centered Design, Usability
+                Testing<br><br> HTML5/CSS3, JavaScript, jQuery, Bootstrap, MaterializeCSS, GitHub, Icon Design,
+                Typography
+            </h2>
+        </div>
+    </div>
+
+    <div>
+        <ul data-role='menu'>
+            <li href=#about_me' data-target='about_me' tabindex="1">About me</li>
+            <li href=#work_history' data-target='work_history' tabindex="2">Work history</li>
+            <li href='#settings' data-target='core_skillset' tabindex="3">CORE SKILLSET</li>
+            <li href='#settings' data-target='vendor' tabindex="4">VENDOR SETRIFICATION</li>
+            <li href='#settings' data-target='education' tabindex="4">ACADEMIC BACKGROUND</li>
+        </ul>
+    </div>
+    <div id='app'></div>
+</div>
+<script src='js/component1.js'></script>
+<script src='js/component2.js'></script>
+<script src='js/component3.js'></script>
+<script src='js/component4.js'></script>
+<script src='js/component5.js'></script>
+<script src='script.js'></script>
+
+</body>
+</html>

@@ -1,0 +1,179 @@
+::selection {
+    background: transparent;
+}
+
+::-moz-selection {
+    background: transparent;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+    -webkit-animation: fade-in 1s linear;
+    -moz-animation: fade-in 1s linear;
+    -o-animation: fade-in 1s linear;
+    animation: fade-in 1s linear;
+}
+
+html {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+@-webkit-keyframes fade-in {
+    0% {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fade-in {
+    0% {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fade-in {
+    0% {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+h1 {
+    font-size: 13px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 10px;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+h4 {
+    font-size: 18px;
+    color: black;
+    font-weight: 900;
+    border-left: 2px solid #412457;
+    padding-left: 5px;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-size: 14px;
+    font-weight: 300;
+
+}
+
+h6 {
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.paragraph {
+    display: flex;
+}
+/**----------------------------BODY----------------------------**/
+.all_page{
+    margin: 0 auto;
+    width: 700px;
+}
+.container_for_paragraph_and_content {
+    margin-bottom: 35px;
+}
+
+.output_info {
+    margin-left: 30px;
+    width: 228px;
+    margin-bottom: 20px;
+}
+
+.work_history {
+    width: 350px;
+    padding: 15px;
+}
+
+.content_work_history {
+    margin-left: 30px;
+    width: 350px;
+}
+
+.circle {
+    width: 16px;
+    height: 16px;
+    background-color: #412457;
+    border-radius: 100%;
+    margin-right: 13px;
+}
+
+.line {
+    width: 2px;
+    height: 120px;
+    background-color: #412457;
+    margin-left: 7px;
+}
+
+.line_last {
+    width: 2px;
+    height: 85px;
+    margin-left: 7px;
+}
+
+.line_history {
+
+}
+
+.item_par {
+    flex-direction: column;
+}
+
+.line_item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 220px;
+}
+
+.line_item_text p {
+    color: darkgray;
+}
+
+.line_item_text {
+    width: 220px;
+    margin-left: 26px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item_circle {
+    display: flex;
+    align-items: center;
+}
